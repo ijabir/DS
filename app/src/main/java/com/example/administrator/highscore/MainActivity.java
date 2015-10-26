@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "Database Empty\n", Toast.LENGTH_LONG).show();
         }
         else{
+            //dfgdfg
             Toast.makeText(this,"Loading Successfull",Toast.LENGTH_LONG).show();
             score.setText("Till now the High Score is\n" + temp);
         }
